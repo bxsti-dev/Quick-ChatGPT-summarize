@@ -9,7 +9,7 @@
 
 ## Installation:
 
-<strong>Step 1:</strong> Clone this repo or download <a href="https://github.com/bxsti-dev/Quick-ChatGPT-summarize/archive/refs/heads/main.zip">here</a> !
+<strong>Step 1:</strong> Clone this repo or download <a href="https://github.com/bxsti-dev/Quick-ChatGPT-summarize/releases/download/extension/quick_chatgpt_summarize.zip">here</a> !
 <br><br>
 <strong>Step 2:</strong> Extract zip file
 <br><br>
