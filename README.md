@@ -1,1 +1,0 @@
-"# Quick-ChatGPT-summarize" 

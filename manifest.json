@@ -1,0 +1,32 @@
+{
+    "manifest_version": 3,
+    "name": "Quick ChatGPT summarize",
+    "description": "Summarize selected text from rightclick menu using ChatGPT.",
+    "version": "1.0",
+    "icons":{
+        "128": "icon128.png"
+    },
+    "action": {
+        "default_title": "Quick ChatGPT summarize",
+        "default_popup": "popup.html"
+    },
+    "host_permissions": [
+        "*://*/*"
+    ],
+    "content_scripts": [
+        {
+            "js": ["content_scripts.js"],
+            "matches": ["<all_urls>"]
+        }
+    ],
+    "permissions": [
+        "contextMenus",
+        "storage",
+        "activeTab",
+        "tabs",
+        "scripting"
+    ],
+    "background": {
+        "service_worker": "background.js"
+    }
+}
